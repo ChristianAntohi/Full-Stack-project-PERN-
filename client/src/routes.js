@@ -13,7 +13,7 @@ export const authRoutes = [
     {
         path: BASKET_ROUTE,
         Component: Basket
-    }
+    },
 ]
 export const publicRoutes = [
     {
@@ -31,5 +31,5 @@ export const publicRoutes = [
     {
         path: DEVICE_ROUTE + '/:id',
         Component: DevicePage
-    }
+    },
 ]
