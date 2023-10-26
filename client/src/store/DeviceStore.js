@@ -8,7 +8,10 @@ export default class DeviceStore {
         ]
         this._brands = [
             {id: 1, name: "Samsung"},
-            {id: 2, name: "Apple"}
+            {id: 2, name: "Apple"},
+            {id: 3, name: "Lenovo"},
+            
+            
         ]
         this._devices = [
             {id: 1, name: "15 pro max", price: 10000, rating: 5, img: 'https://cdn.pixabay.com/photo/2016/03/21/23/25/link-1271843_1280.png'},
