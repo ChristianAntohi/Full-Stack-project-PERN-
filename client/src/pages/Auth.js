@@ -27,11 +27,11 @@ const Auth = () => {
                 <Row className="d-flex justify-content-between mt-3 pl-3 pr-3">
                     {isLogin ? 
                         <div>
-                            Don't have an account?<NavLink to={SHOP_ROUTE} style={{color:'blue'}}>Register!</NavLink>
+                            Don't have an account?<NavLink to={REGISTRATION_ROUTE} style={{color:'blue'}}>Register!</NavLink>
                         </div>
                         :
                         <div>
-                            Have an account?<NavLink to={SHOP_ROUTE} style={{color:'blue'}}>Log In</NavLink>
+                            Have an account?<NavLink to={LOGIN_ROUTE} style={{color:'blue'}}>Log In</NavLink>
                         </div>
                         }
                         <Button 

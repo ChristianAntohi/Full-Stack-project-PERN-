@@ -16,6 +16,8 @@ export default class DeviceStore {
             {id: 3, name: "15 pro max", price: 10000, rating: 5, img: 'https://cdn.pixabay.com/photo/2016/03/21/23/25/link-1271843_1280.png'},
             {id: 4, name: "15 pro max", price: 10000, rating: 5, img: 'https://cdn.pixabay.com/photo/2016/03/21/23/25/link-1271843_1280.png'},
         ]
+        this._selectedType = {};
+        this._selectedBrand = {};
         makeAutoObservable(this)
     }
     setTypes(types) {
@@ -27,6 +29,13 @@ export default class DeviceStore {
     setDevices(devices) {
         this._devices = devices
     }
+    setSelectedType(type) {
+        this._selectedType = type;
+    }
+    setSelectedBrand(brand) {
+        this._selectedBrand = brand;
+    }
+
     get types() {
         return this._types
     }
@@ -35,5 +44,11 @@ export default class DeviceStore {
     }
     get devices() {
         return this._devices
+    }
+    get selectedType() {
+        return this._selectedType
+    }
+    get selectedBrand() {
+        return this._selectedBrand
     }
 }
