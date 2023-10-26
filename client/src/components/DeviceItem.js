@@ -1,11 +1,10 @@
-import React, {useContext} from 'react';
-import {observer} from "mobx-react-lite";
+import React from 'react';
 import {Card, Col, Image} from "react-bootstrap";
 import star from '../assets/star.png'
 
-const DeviceItem = observer((device) => {
+const DeviceItem = ({device}) => {
     return (
-        <Col md={3}>
+        <Col md={3} className={"mt-3"}>
             <Card
                 style={{width:150, cursor: 'pointer'}}
                 border={'light'}
@@ -18,11 +17,10 @@ const DeviceItem = observer((device) => {
                         <Image width={17} height={17} src={star}/>
                     </div>
                 </div>
-                    <div>{device.name}</div>
-
+                <div>{device.name}</div>
             </Card>
         </Col>
     );
-});
+};
 
 export default DeviceItem;
