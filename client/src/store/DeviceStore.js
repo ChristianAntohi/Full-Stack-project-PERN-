@@ -15,9 +15,9 @@ export default class DeviceStore {
         ]
         this._devices = [
             {id: 1, name: "15 pro max", price: 10000, rating: 5, img: 'https://cdn.pixabay.com/photo/2016/03/21/23/25/link-1271843_1280.png'},
-            {id: 2, name: "15 pro max", price: 10000, rating: 5, img: 'https://cdn.pixabay.com/photo/2016/03/21/23/25/link-1271843_1280.png'},
-            {id: 3, name: "15 pro max", price: 10000, rating: 5, img: 'https://cdn.pixabay.com/photo/2016/03/21/23/25/link-1271843_1280.png'},
-            {id: 4, name: "15 pro max", price: 10000, rating: 5, img: 'https://cdn.pixabay.com/photo/2016/03/21/23/25/link-1271843_1280.png'},
+            {id: 2, name: "16 pro max", price: 10000, rating: 5, img: 'https://cdn.pixabay.com/photo/2016/03/21/23/25/link-1271843_1280.png'},
+            {id: 3, name: "17 pro max", price: 10000, rating: 5, img: 'https://cdn.pixabay.com/photo/2016/03/21/23/25/link-1271843_1280.png'},
+            {id: 4, name: "18 pro max", price: 10000, rating: 5, img: 'https://cdn.pixabay.com/photo/2016/03/21/23/25/link-1271843_1280.png'},
         ]
         this._selectedType = {};
         this._selectedBrand = {};
